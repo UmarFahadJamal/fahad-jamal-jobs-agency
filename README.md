@@ -1,52 +1,50 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fahad Jamal Jobs Agency</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <img src="logo.png" alt="Fahad Jamal Jobs Agency Logo" class="logo">
-        <h1>Fahad Jamal Jobs Agency</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#services">Our Offer</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>
-                Fahad Jamal Jobs Agency helps people find jobs across all UAE countries. We offer full support including free accommodation, visa, air tickets, and food for our candidates. Our service is 100% free!
-            </p>
-        </section>
-        <section id="services">
-            <h2>What We Offer</h2>
-            <ul>
-                <li>Free accommodation (sleep)</li>
-                <li>Free UAE visa processing</li>
-                <li>Free air tickets</li>
-                <li>Free food</li>
-                <li>Jobs in all UAE countries</li>
-            </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <p>
-                For more information or to apply, contact us:
-            </p>
-            <ul>
-                <li>Email: <a href="mailto:fahadjamaljobsagency@gmail.com">fahadjamaljobsagency@gmail.com</a></li>
-                <li>WhatsApp: <a href="https://wa.me/yourwhatsapplink">+971-XXX-XXXXXX</a></li>
-                <li>Instagram: <a href="https://instagram.com/yourprofile" target="_blank">@yourprofile</a></li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Fahad Jamal Jobs Agency. All rights reserved.</p>
-    </footer>
-</body>
-</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background: #f4f4f4;
+}
+header {
+    background: #008080;
+    color: #fff;
+    padding: 20px 0 10px 0;
+    text-align: center;
+    position: relative;
+}
+.logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+}
+nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+main {
+    max-width: 800px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+section {
+    margin-bottom: 30px;
+}
+h1, h2 {
+    margin-top: 0;
+}
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
